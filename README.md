@@ -5,4 +5,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0007-reverse-integer) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
