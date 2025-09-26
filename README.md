@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1258-article-views-i](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1258-article-views-i) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
+| [1773-percentage-of-users-attended-a-contest](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1773-percentage-of-users-attended-a-contest) |
 | [1827-invalid-tweets](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
