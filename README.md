@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0007-reverse-integer) |
+| [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
 ## Database
 |  |
 | ------- |
@@ -21,4 +22,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1827-invalid-tweets](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1908-recyclable-and-low-fat-products) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
+## Array
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
