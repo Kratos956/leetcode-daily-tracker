@@ -4,18 +4,6 @@ class Solution {
         if(nums.length==1){
             return;
         }
-        if(k>nums.length){
-            int i=0;
-            int j=nums.length-1;
-            while(i<=j){
-                int temp=nums[i];
-                nums[i]=nums[j];
-                nums[j]=temp;
-                i++;
-                j--;
-            }
-            return;
-        }
         int result[]=new int[nums.length];
         int i=0;
         while(k!=0){
