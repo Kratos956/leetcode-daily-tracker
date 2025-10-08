@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0007-reverse-integer) |
+| [0048-rotate-image](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
 ## Database
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0031-next-permutation) |
+| [0048-rotate-image](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
@@ -63,5 +65,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
