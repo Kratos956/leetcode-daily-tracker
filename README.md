@@ -28,12 +28,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0031-next-permutation](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0031-next-permutation) |
 | [0073-set-matrix-zeroes](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0073-set-matrix-zeroes) |
+| [0075-sort-colors](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
 ## Two Pointers
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0031-next-permutation) |
+| [0075-sort-colors](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0344-reverse-string) |
 ## Hash Table
@@ -52,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0075-sort-colors) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
 ## String
 |  |
