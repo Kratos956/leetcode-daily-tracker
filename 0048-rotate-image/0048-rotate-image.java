@@ -19,7 +19,7 @@ class Solution {
                 
             }
             x++;
-                y--;
+            y--;
         }
         for(int i=0;i<rows;i++){
             for(int j=0;j<cols;j++){
