@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
+| [1817-calculate-money-in-leetcode-bank](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1817-calculate-money-in-leetcode-bank) |
 ## Database
 |  |
 | ------- |
