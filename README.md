@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0287-find-the-duplicate-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
+| [0287-find-the-duplicate-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0344-reverse-string) |
 ## Hash Table
 |  |
@@ -54,10 +56,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0287-find-the-duplicate-number) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0287-find-the-duplicate-number) |
 ## Sorting
 |  |
 | ------- |
