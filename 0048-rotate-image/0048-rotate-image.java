@@ -26,7 +26,5 @@ class Solution {
                 matrix[i][j]=transposedMatrix[i][j];
             }
         }
-        
-
     }
 }
