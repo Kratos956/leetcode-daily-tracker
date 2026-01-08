@@ -2,10 +2,10 @@ class NumArray {
     int[] prefixArr;
 
     public NumArray(int[] nums) {
-        prefixArr=nums;
+        prefixArr=new int[nums.length];
         prefixArr[0]=nums[0];
         for(int i=1;i<nums.length;i++){
-            prefixArr[i]+=prefixArr[i-1];
+            prefixArr[i]+=prefixArr[i-1]+nums[i];
         }
         
 
