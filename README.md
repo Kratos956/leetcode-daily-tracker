@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0344-reverse-string) |
+| [0844-backspace-string-compare](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0844-backspace-string-compare) |
 | [0977-squares-of-a-sorted-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
 |  |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0344-reverse-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0344-reverse-string) |
+| [0844-backspace-string-compare](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0844-backspace-string-compare) |
 ## Matrix
 |  |
 | ------- |
@@ -114,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0145-binary-tree-postorder-traversal) |
+| [0844-backspace-string-compare](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0844-backspace-string-compare) |
 ## Tree
 |  |
 | ------- |
@@ -154,4 +157,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0303-range-sum-query-immutable) |
+## Simulation
+|  |
+| ------- |
+| [0844-backspace-string-compare](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0844-backspace-string-compare) |
 <!---LeetCode Topics End-->
