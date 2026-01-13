@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
+| [0209-minimum-size-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0283-move-zeroes) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0287-find-the-duplicate-number) |
 ## Bit Manipulation
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0209-minimum-size-subarray-sum) |
 | [0303-range-sum-query-immutable](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0303-range-sum-query-immutable) |
 | [0523-continuous-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0560-subarray-sum-equals-k) |
@@ -166,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0239-sliding-window-maximum) |
 | [0643-maximum-average-subarray-i](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0643-maximum-average-subarray-i) |
 ## Queue
