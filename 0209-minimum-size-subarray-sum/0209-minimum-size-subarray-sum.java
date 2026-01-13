@@ -1,29 +1,19 @@
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
-        int sum=0;
-        int windowSize=Integer.MAX_VALUE;
-        int left=0;
-        int right=0;
-        boolean Find=false;
-        while(right<nums.length){
-            sum=sum+nums[right];
-            if(sum<target){
-                right++;
-            }
-            else if(sum>=target){
-                Find=true;
-                windowSize=Math.min(windowSize,right-left+1);
-                sum=sum-nums[left];
-                sum=sum-nums[right];
+        int sum = 0;
+        int left = 0;
+        int minLen = Integer.MAX_VALUE;
+
+        for (int right = 0; right < nums.length; right++) {
+            sum += nums[right];
+
+            while (sum >= target) {
+                minLen = Math.min(minLen, right - left + 1);
+                sum -= nums[left];
                 left++;
             }
-            
         }
-        if(Find==false){
-            return 0;
-        }
-        else{
-            return windowSize;
-        }
+
+        return minLen == Integer.MAX_VALUE ? 0 : minLen;
     }
 }
