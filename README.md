@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0007-reverse-integer) |
 | [0048-rotate-image](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
 | [0523-continuous-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0523-continuous-subarray-sum) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1817-calculate-money-in-leetcode-bank) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0141-linked-list-cycle) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0344-reverse-string) |
@@ -83,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0073-set-matrix-zeroes) |
 | [0141-linked-list-cycle](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0141-linked-list-cycle) |
+| [0202-happy-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0523-continuous-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0523-continuous-subarray-sum) |
