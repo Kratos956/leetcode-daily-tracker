@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0142-linked-list-cycle-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0202-happy-number) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0073-set-matrix-zeroes) |
 | [0141-linked-list-cycle](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -217,5 +219,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0142-linked-list-cycle-ii) |
 | [0876-middle-of-the-linked-list](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0876-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
