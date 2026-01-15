@@ -1,48 +1,42 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        ListNode slow=head;
-        ListNode fast=head;
-        while(fast!=null && fast.next!=null){
-            slow=slow.next;
-            fast=fast.next;
+        if (head == null || head.next == null) {
+            return true;
         }
-       
-       ListNode newnode=reverse(slow.next);
-        ListNode one =head;
-        ListNode second=newnode;
-        while (second!=null) {
-            if (one.val!=second.val) {
-                // reverse(newnode);
+
+        ListNode slow = head;
+        ListNode fast = head;
+
+        // FIX 1: correct fast movement
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        // FIX 2: reverse from slow
+        ListNode second = reverse(slow);
+        ListNode first = head;
+
+        while (second != null) {
+            if (first.val != second.val) {
                 return false;
             }
-            one=one.next;
-            second=second.next;
+            first = first.next;
+            second = second.next;
         }
-        return true;
-       
 
+        return true;
     }
-    public ListNode reverse(ListNode head){
-        if(head==null || head.next==null){
-            return head;
-        }
-        ListNode curr=head;
-        ListNode prev=null;
-        while(head!=null){
-            ListNode next=curr.next;
-            curr.next=prev;
-            prev=curr;
-            curr=next;
+
+    public ListNode reverse(ListNode head) {
+        ListNode prev = null;
+        ListNode curr = head;
+
+        while (curr != null) {
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
         return prev;
     }
