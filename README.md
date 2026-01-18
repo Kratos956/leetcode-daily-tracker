@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0724-find-pivot-index) |
 | [0904-fruit-into-baskets](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0930-binary-subarrays-with-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0977-squares-of-a-sorted-array) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0992-subarrays-with-k-different-integers) |
 | [1480-running-sum-of-1d-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1480-running-sum-of-1d-array) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0567-permutation-in-string) |
 | [0904-fruit-into-baskets](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0930-binary-subarrays-with-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0992-subarrays-with-k-different-integers) |
 ## Binary Search
 |  |
@@ -182,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0724-find-pivot-index) |
 | [0930-binary-subarrays-with-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0930-binary-subarrays-with-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1480-running-sum-of-1d-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1480-running-sum-of-1d-array) |
 ## Design
 |  |
