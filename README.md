@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0303-range-sum-query-immutable) |
 | [0523-continuous-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0523-continuous-subarray-sum) |
+| [0525-contiguous-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0724-find-pivot-index) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0523-continuous-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0523-continuous-subarray-sum) |
+| [0525-contiguous-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0567-permutation-in-string) |
 | [0904-fruit-into-baskets](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0904-fruit-into-baskets) |
@@ -181,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0209-minimum-size-subarray-sum) |
 | [0303-range-sum-query-immutable](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0303-range-sum-query-immutable) |
 | [0523-continuous-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0523-continuous-subarray-sum) |
+| [0525-contiguous-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0724-find-pivot-index) |
 | [0930-binary-subarrays-with-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0930-binary-subarrays-with-sum) |
