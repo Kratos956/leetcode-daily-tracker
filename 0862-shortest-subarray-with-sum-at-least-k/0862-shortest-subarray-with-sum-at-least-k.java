@@ -14,13 +14,13 @@ class Solution {
             while(!deque.isEmpty() && prefix[right]<=prefix[deque.peekLast()]){
                 deque.removeLast();
             }
-            deque.addLast(right);
+            
 
             while(!deque.isEmpty() && prefix[right]-prefix[deque.peekFirst()]>=k){
                 minSize=Math.min(minSize,right-deque.peekFirst());
                 deque.removeFirst();
             }
-            
+            deque.addLast(right);
             
             
         }
