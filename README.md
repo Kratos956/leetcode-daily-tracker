@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0724-find-pivot-index) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0904-fruit-into-baskets](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0974-subarray-sums-divisible-by-k) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0287-find-the-duplicate-number) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0724-find-pivot-index) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1480-running-sum-of-1d-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1480-running-sum-of-1d-array) |
@@ -205,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0643-maximum-average-subarray-i) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0904-fruit-into-baskets](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0992-subarrays-with-k-different-integers) |
@@ -213,14 +217,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0239-sliding-window-maximum) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0239-sliding-window-maximum) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0239-sliding-window-maximum) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 ## Counting
 |  |
 | ------- |
