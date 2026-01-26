@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0048-rotate-image) |
+| [0053-maximum-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0074-search-a-2d-matrix) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Prefix Sum
 |  |
@@ -247,4 +249,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0143-reorder-list](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0234-palindrome-linked-list) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
