@@ -6,7 +6,7 @@ class Solution {
             int r=x[1];
             int val=x[2];
             seats[l]+=val;
-            if(r+1<n+1){
+            if(r<n){
                 seats[r+1]-=val;
             }
         }
