@@ -4,15 +4,14 @@ class Solution {
         int min=nums[0];
         int ans=nums[0];
         for(int i=1;i<nums.length;i++){
-            if(nums[i]<0){
-                int temp=max;
-                max=min;
-                min=temp;
-            }
-            max=Math.max(max*nums[i],nums[i]);
-            min=Math.min(min*nums[i],nums[i]);
-            
-            ans=Math.max(max,ans);
+            int x=nums[i];
+            int y=min*nums[i];
+            int z=max*nums[i];
+
+            min=Math.min(x,Math.min(y,z));
+            max=Math.max(x,Math.max(y,z));
+
+            ans=Math.max(ans,Math.max(min,max));
         }
         return ans;
     }
