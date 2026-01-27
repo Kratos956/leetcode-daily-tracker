@@ -10,8 +10,6 @@ class Solution {
             currMin=Math.min(currMin+num,num);
             minSum=Math.min(currMin,minSum);
         }
-        if(Math.abs(maxSum)>Math.abs(minSum)) return Math.abs(maxSum);
-
-        return Math.abs(minSum);
+        return Math.max(Math.abs(maxSum), Math.abs(minSum));
     }
 }
