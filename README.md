@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0992-subarrays-with-k-different-integers) |
 | [1109-corporate-flight-bookings](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1109-corporate-flight-bookings) |
 | [1480-running-sum-of-1d-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1480-running-sum-of-1d-array) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 ## Two Pointers
 |  |
 | ------- |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0152-maximum-product-subarray) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 ## Prefix Sum
 |  |
 | ------- |
