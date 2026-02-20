@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0567-permutation-in-string) |
 | [0844-backspace-string-compare](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0844-backspace-string-compare) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Matrix
 |  |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0145-binary-tree-postorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0234-palindrome-linked-list) |
 | [0844-backspace-string-compare](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0844-backspace-string-compare) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Tree
 |  |
 | ------- |
