@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0071-simplify-path](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0071-simplify-path) |
 | [0344-reverse-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0344-reverse-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0567-permutation-in-string) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0071-simplify-path](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0144-binary-tree-preorder-traversal) |
