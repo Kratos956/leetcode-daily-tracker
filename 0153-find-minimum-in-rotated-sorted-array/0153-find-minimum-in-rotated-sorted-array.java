@@ -5,7 +5,7 @@ class Solution {
         int res=Integer.MAX_VALUE;
         while(low<=high){
             int mid=(low+high)/2;
-            if(nums[mid]>nums[high]){
+            if(nums[mid]>nums[nums.length-1]){
                 low=mid+1;
             }
             else{
