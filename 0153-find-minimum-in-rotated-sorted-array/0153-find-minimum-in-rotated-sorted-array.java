@@ -9,10 +9,10 @@ class Solution {
                 low=mid+1;
             }
             else{
-                res=Math.min(res,nums[mid]);
+                res=mid;
                 high=mid-1;
             }
         }
-        return res;
+        return nums[res];
     }
 }
