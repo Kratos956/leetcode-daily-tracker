@@ -1,32 +1,19 @@
 class Solution {
-    public int possible(int[] arr,int target){
-        int count=0;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]>=target){
-                count++;
-            }
-        }
-        return count;
-
-    }
     public int hIndex(int[] citations) {
-        int max=Integer.MIN_VALUE;
-        for(int x:citations){
-            max=Math.max(max,x);
-        }
-        int low=0;
-        int high=max;
-        int res=0;
-        while(low<=high){
-            int mid=(low+high)/2;
-            if(possible(citations,mid)>=mid){
-                res=mid;
-                low=mid+1;
-            }
-            else{
-                high=mid-1;
-            }
-        }
-        return res;
-    }
+        int len = citations.length;
+	int lo = 0, hi = len - 1;
+	while (lo <= hi) {
+		int med = (hi + lo) / 2;
+		if (citations[med] == len - med) {
+			return len - med;
+		} else if (citations[med] < len - med) {
+			lo = med + 1;
+		} else { 
+			
+			hi = med - 1;
+		}
+	}
+	return len - lo;
+}
+        
 }
