@@ -9,7 +9,7 @@ class Solution {
             else if(matrix[row][column]>target){
                 row--;
             }
-            else if(matrix[row][column]<target){
+            else{
                 column++;
             }
         }
