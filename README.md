@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0303-range-sum-query-immutable) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0496-next-greater-element-i](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0525-contiguous-array) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0275-h-index-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0287-find-the-duplicate-number) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0875-koko-eating-bananas](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0875-koko-eating-bananas) |
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0088-merge-sorted-array) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0977-squares-of-a-sorted-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0977-squares-of-a-sorted-array) |
 ## String
 |  |
@@ -177,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0240-search-a-2d-matrix-ii) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 ## Stack
 |  |
 | ------- |
@@ -268,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0239-sliding-window-maximum) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 ## Monotonic Queue
 |  |
