@@ -12,8 +12,6 @@ class Solution {
         for (int num : nums) {
             freq.put(num, freq.getOrDefault(num, 0) + 1);
         }
-
-        int[] arr =new int[k];
         PriorityQueue<Pair> pq = new PriorityQueue<>(
                 Comparator.comparingInt(a -> a.second)
         );
@@ -23,11 +21,10 @@ class Solution {
                 pq.poll();
             }
         }
-        int count = 0;
-        while(!pq.isEmpty() && count < k){
-            Pair p = pq.poll();
-            arr[count++]=p.first;
+        int[] res = new int[k];
+        for (int i = k - 1; i >= 0; i--) {
+            res[i] = pq.poll().first;
         }
-        return arr;
+        return res;
     }
 }
