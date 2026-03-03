@@ -13,13 +13,15 @@ class Solution {
             freq.put(num, freq.getOrDefault(num, 0) + 1);
         }
         PriorityQueue<Pair> pq = new PriorityQueue<>(
-                Comparator.comparingInt(a -> a.second)
+                (a,b)->{
+                    return b.second-a.second;
+                }
         );
         for(Map.Entry<Integer,Integer> entry:freq.entrySet()){
             pq.offer(new Pair(entry.getKey(),entry.getValue()));
-            if (pq.size() > k) {
-                pq.poll();
-            }
+            // if (pq.size() > k) {
+            //     pq.poll();
+            // }
         }
         int[] res = new int[k];
         for (int i = k - 1; i >= 0; i--) {
