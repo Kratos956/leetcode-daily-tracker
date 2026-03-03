@@ -18,13 +18,19 @@ class Solution {
                 }
         );
         for(int i = 0; i < mat.length; i++){
-            int count=0;
-            for(int j = 0; j < mat[0].length; j++){
-                if(mat[i][j] == 1){
-                    count++;
+            int low=0;
+            int high=mat[i].length-1;
+            while(low<=high){
+                int mid=(low+high)/2;
+                if(mat[i][mid]==1){
+                    low=mid+1;
+                }
+                else{
+                    high=mid-1;
                 }
             }
-            pq.offer(new Pair(count,i));
+            
+            pq.offer(new Pair(low,i));
 
         }
         int[] res = new int[k];
