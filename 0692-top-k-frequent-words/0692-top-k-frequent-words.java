@@ -15,24 +15,24 @@ class Solution {
         PriorityQueue<Pair> pq = new PriorityQueue<>(
                 (a,b)->{
                     if(a.second!=b.second){
-                        return b.second-a.second;
+                        return a.second-b.second;
                     }
                     else{
-                        return a.first.compareTo(b.first);
+                        return b.first.compareTo(a.first);
                     }
                 }
         );
         for (String word : map.keySet()) {
             pq.offer(new Pair(word, map.get(word)));
+            if (pq.size() > k) {
+                pq.poll();
+            }
 
         }
-        int count=0;
-        List<String> res = new ArrayList<>();
-        while(!pq.isEmpty() && count<k){
-            Pair p = pq.poll();
-            res.add(p.first);
-            count++;
+        String arr[]=new String[k];
+        for(int i=k-1;i>=0;i--){
+            arr[i]=pq.poll().first;
         }
-        return res;
+        return Arrays.asList(arr);
     }
 }
