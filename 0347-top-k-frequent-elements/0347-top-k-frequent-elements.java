@@ -14,14 +14,14 @@ class Solution {
         }
         PriorityQueue<Pair> pq = new PriorityQueue<>(
                 (a,b)->{
-                    return b.second-a.second;
+                    return a.second-b.second;
                 }
         );
         for(Map.Entry<Integer,Integer> entry:freq.entrySet()){
             pq.offer(new Pair(entry.getKey(),entry.getValue()));
-            // if (pq.size() > k) {
-            //     pq.poll();
-            // }
+            if (pq.size() > k) {
+                pq.poll();
+            }
         }
         int[] res = new int[k];
         for (int i = k - 1; i >= 0; i--) {
