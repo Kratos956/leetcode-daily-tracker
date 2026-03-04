@@ -19,11 +19,11 @@ class Solution {
         for(Map.Entry<Character,Integer> entry:map.entrySet()){
             pq.add(new Pair(entry.getKey(),entry.getValue()));
         }
-        String result="";
+        StringBuilder result = new StringBuilder();
         while(!pq.isEmpty()){
             Pair p=pq.poll();
             if(result.isEmpty() || result.charAt(result.length()-1)!=p.first){
-                result+=p.first;
+                result.append(p.first);
                 p.second=p.second-1;
                 if(p.second>0){
                     pq.add(p);
@@ -34,7 +34,7 @@ class Solution {
                     return "";
                 }
                 Pair p2=pq.poll();
-                result+=p2.first;
+                result.append(p2.first);
                 p2.second=p2.second-1;
                 if(p2.second>0){
                     pq.add(p2);
@@ -43,7 +43,7 @@ class Solution {
             }
 
         }
-        return result;
+        return result.toString();
 
     }
 }
