@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0977-squares-of-a-sorted-array) |
 | [0986-interval-list-intersections](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0986-interval-list-intersections) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0992-subarrays-with-k-different-integers) |
+| [1046-last-stone-weight](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1046-last-stone-weight) |
 | [1109-corporate-flight-bookings](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1109-corporate-flight-bookings) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
@@ -304,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0767-reorganize-string) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0973-k-closest-points-to-origin](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0973-k-closest-points-to-origin) |
+| [1046-last-stone-weight](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1046-last-stone-weight) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 ## Monotonic Queue
 |  |
