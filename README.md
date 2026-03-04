@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0692-top-k-frequent-words) |
+| [0767-reorganize-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0767-reorganize-string) |
 | [0904-fruit-into-baskets](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0974-subarray-sums-divisible-by-k) |
@@ -177,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0692-top-k-frequent-words) |
+| [0767-reorganize-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0767-reorganize-string) |
 | [0973-k-closest-points-to-origin](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0973-k-closest-points-to-origin) |
 | [0977-squares-of-a-sorted-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0977-squares-of-a-sorted-array) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
@@ -188,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0692-top-k-frequent-words) |
+| [0767-reorganize-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0767-reorganize-string) |
 | [0844-backspace-string-compare](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
@@ -298,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0692-top-k-frequent-words) |
+| [0767-reorganize-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0767-reorganize-string) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0973-k-closest-points-to-origin](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0973-k-closest-points-to-origin) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
@@ -311,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0692-top-k-frequent-words) |
+| [0767-reorganize-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0767-reorganize-string) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0992-subarrays-with-k-different-integers) |
 ## Linked List
 |  |
@@ -364,4 +369,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0973-k-closest-points-to-origin) |
+## Greedy
+|  |
+| ------- |
+| [0767-reorganize-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0767-reorganize-string) |
 <!---LeetCode Topics End-->
