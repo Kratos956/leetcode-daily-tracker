@@ -11,21 +11,21 @@ class Solution {
         map.put('8', "tuv");
         map.put('9', "wxyz");
         List<String> res=new ArrayList<>();
-        generate(digits,digits.length(),res,0,"",map);
+        generate(digits,digits.length(),res,0,new StringBuilder(),map);
         return res;
     }
-    void generate(String digits,int n,List<String> list,int idx,String res,Map<Character,String> map){
+    void generate(String digits,int n,List<String> list,int idx,StringBuilder res,Map<Character,String> map){
         if(res.length()==n){
-            list.add(res);
+            list.add(res.toString());
             return;
         }
 
         char ch=digits.charAt(idx);
-        String str=map.get(ch);
-        for(int i=0;i<str.length();i++){
-            res=res+str.charAt(i);
+
+        for(int i=0;i<map.get(ch).length();i++){
+            res.append(map.get(ch).charAt(i));
             generate(digits,n,list,idx+1,res,map);
-            res=res.substring(0,res.length()-1);
+            res.deleteCharAt(res.length()-1);
         }
     }
 }
