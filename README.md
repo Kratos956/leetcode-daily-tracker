@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0022-generate-parentheses) |
 | [0071-simplify-path](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0071-simplify-path) |
 | [0344-reverse-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0344-reverse-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -252,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0152-maximum-product-subarray) |
@@ -391,5 +393,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0022-generate-parentheses) |
 | [0078-subsets](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
