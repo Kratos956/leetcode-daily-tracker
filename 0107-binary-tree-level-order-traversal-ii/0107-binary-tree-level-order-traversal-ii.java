@@ -30,8 +30,8 @@ class Solution {
                 size--;
 
             }
-            res.add(new ArrayList<>(temp));
+            res.addFirst(new ArrayList<>(temp));
         }
-        return res.reversed();
+        return res;
     }
 }
