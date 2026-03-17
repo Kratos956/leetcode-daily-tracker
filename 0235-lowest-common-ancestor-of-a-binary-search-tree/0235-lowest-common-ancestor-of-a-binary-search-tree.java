@@ -12,6 +12,7 @@ class Solution {
     void generate(TreeNode root, TreeNode p, TreeNode q){
         if(root.val==p.val || root.val==q.val){
             ans=root;
+            return;
         }
         if(root.val>p.val && root.val>q.val){
             generate(root.left,p,q);
