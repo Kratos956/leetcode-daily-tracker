@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0992-subarrays-with-k-different-integers) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## Binary Search
 |  |
 | ------- |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0700-search-in-a-binary-search-tree) |
 | [0951-flip-equivalent-binary-trees](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0951-flip-equivalent-binary-trees) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -252,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0572-subtree-of-another-tree) |
 | [0951-flip-equivalent-binary-trees](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0951-flip-equivalent-binary-trees) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## Binary Tree
 |  |
 | ------- |
@@ -265,11 +268,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0700-search-in-a-binary-search-tree) |
 | [0951-flip-equivalent-binary-trees](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0951-flip-equivalent-binary-trees) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0102-binary-tree-level-order-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0107-binary-tree-level-order-traversal-ii) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## Dynamic Programming
 |  |
 | ------- |
