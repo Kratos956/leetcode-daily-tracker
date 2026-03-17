@@ -17,10 +17,10 @@ class Solution {
         if(root.val>p.val && root.val>q.val){
             generate(root.left,p,q);
         }
-        if(root.val<p.val && root.val<q.val){
+        else if(root.val<p.val && root.val<q.val){
             generate(root.right,p,q);
         }
-        if(root.val>p.val && root.val<q.val){
+        else if(root.val>p.val && root.val<q.val){
             ans=root;
         }
     }
