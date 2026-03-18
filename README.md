@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0007-reverse-integer) |
 | [0048-rotate-image](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
@@ -374,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0234-palindrome-linked-list) |
 | [0509-fibonacci-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0509-fibonacci-number) |
