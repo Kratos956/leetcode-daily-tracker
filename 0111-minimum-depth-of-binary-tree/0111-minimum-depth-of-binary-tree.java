@@ -1,8 +1,5 @@
 class Solution {
     public int minDepth(TreeNode root) {
-        return generate(root);
-    }
-    int generate(TreeNode root){
         if(root==null){
             return 0;
         }
