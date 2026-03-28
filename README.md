@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1480-running-sum-of-1d-array) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
+| [2050-parallel-courses-iii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2050-parallel-courses-iii) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2226-maximum-candies-allocated-to-k-children) |
 ## Two Pointers
 |  |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0509-fibonacci-number) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
+| [2050-parallel-courses-iii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2050-parallel-courses-iii) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -458,4 +460,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0700-search-in-a-binary-search-tree) |
+## Graph Theory
+|  |
+| ------- |
+| [2050-parallel-courses-iii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2050-parallel-courses-iii) |
+## Topological Sort
+|  |
+| ------- |
+| [2050-parallel-courses-iii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2050-parallel-courses-iii) |
 <!---LeetCode Topics End-->
