@@ -269,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0951-flip-equivalent-binary-trees](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0951-flip-equivalent-binary-trees) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1192-critical-connections-in-a-network](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1192-critical-connections-in-a-network) |
 ## Binary Tree
 |  |
 | ------- |
@@ -463,9 +464,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [1192-critical-connections-in-a-network](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1192-critical-connections-in-a-network) |
 | [2050-parallel-courses-iii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2050-parallel-courses-iii) |
 ## Topological Sort
 |  |
 | ------- |
 | [2050-parallel-courses-iii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2050-parallel-courses-iii) |
+## Biconnected Component
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1192-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
