@@ -28,7 +28,7 @@ class Solution {
                 continue;
             }
             if(visited[nei]==1){
-                low[node] = Math.min(low[node], discovery[nei]);
+                low[node] = Math.min(low[node], low[nei]);
             }
             else{
                 generated(nei, node, adj, discovery, low, visited, Bridges);
