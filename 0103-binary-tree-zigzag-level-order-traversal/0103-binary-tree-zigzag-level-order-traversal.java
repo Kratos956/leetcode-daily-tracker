@@ -25,19 +25,18 @@ class Solution {
             List<Integer> temp=new ArrayList<>();
             for(int i=0;i<size;i++){
                 TreeNode node=q.poll();
-                temp.add(node.val);
+                if(zigzag==0){
+                    temp.addFirst(node.val);
+                }
+                else if(zigzag==1){
+                    temp.add(node.val);
+                }
                 if(node.left!=null) q.offer(node.left);
                 if(node.right!=null) q.offer(node.right);
             }
-            if(zigzag==1){
-                res.add(temp);
-            }
-            else if(zigzag==0){
-                Collections.reverse(temp);
-                res.add(temp);
-                
-            }
+            res.add(temp);
             zigzag=1-zigzag;
+           
         }
         return res;
     }
