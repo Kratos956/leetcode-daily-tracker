@@ -22,10 +22,9 @@ class Solution {
         if(node==null){
             return;
         }
-        if(node.left==null && node.right==null){
-            return;
-        }
-
+        // if(node.left==null && node.right==null){
+        //     return;
+        // }
         TreeNode left=node.left;
         TreeNode right=node.right;
         node.left=right;
