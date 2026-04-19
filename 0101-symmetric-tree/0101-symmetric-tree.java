@@ -1,34 +1,22 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
     public boolean isSymmetric(TreeNode root) {
-        return isSymmetry(root.left,root.right);
+        Queue<TreeNode> q1=new LinkedList<>();
+        Queue<TreeNode> q2=new LinkedList<>();
+        q1.add(root.left);
+        q2.add(root.right);
+        while(!q1.isEmpty()){
+            TreeNode u1=q1.poll();
+            TreeNode u2=q2.poll();
+            if (u1 == null && u2 == null) continue;
+            if (u1 == null || u2 == null) return false;
+            if (u1.val != u2.val) return false;
+            
+            q1.offer(u1.left);
+            q1.offer(u1.right);
+            q2.offer(u2.right);
+            q2.offer(u2.left);
+        }
+        return true;
     }
-    boolean isSymmetry(TreeNode p,TreeNode q){
-        if(p==null && q==null){
-            return true;
-        }
-        if(p==null || q==null){
-            return false;
-        }
-        if(p.val!=q.val){
-            return false;
-        }
-        boolean left=isSymmetry(p.left,q.right);
-        boolean right=isSymmetry(p.right,q.left);
-        return left&&right;
-    }
+
 }
