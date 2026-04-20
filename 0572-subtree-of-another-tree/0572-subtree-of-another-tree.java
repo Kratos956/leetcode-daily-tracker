@@ -13,8 +13,10 @@ class Solution {
         if(root.val==subRoot.val && sameTree(root,subRoot)){
             isSubtree=true;
         }
-        Preorder(root.left, subRoot);
-        Preorder(root.right, subRoot);
+        if(!isSubtree){
+            Preorder(root.left, subRoot);
+            Preorder(root.right, subRoot);
+        }
     }
 
     boolean sameTree(TreeNode p,TreeNode q){
