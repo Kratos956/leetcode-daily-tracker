@@ -1,20 +1,23 @@
 class Solution {
-    boolean isTrue(TreeNode node1,TreeNode node2){
-        if(node1==null && node2==null) return true;
-        if(node1==null || node2==null) return false;
-        if(node1.val!=node2.val) return false;
-        boolean Left=isTrue(node1.left,node2.left);
-        boolean Right=isTrue(node1.right,node2.right);
-        return Left&&Right;
-    }
+
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
-        if(root==null) return false;
-        if(root.val==subRoot.val && isTrue(root,subRoot)){
+        if (subRoot == null) return true;
+        if (root == null) return false;
+
+        if (root.val == subRoot.val && sameTree(root, subRoot)) {
             return true;
         }
-        boolean L=isSubtree(root.left,subRoot);
-        boolean R=isSubtree(root.right,subRoot);
-        return L || R;
+
+        return isSubtree(root.left, subRoot) ||
+               isSubtree(root.right, subRoot);
     }
 
+    boolean sameTree(TreeNode p, TreeNode q) {
+        if (p == null && q == null) return true;
+        if (p == null || q == null) return false;
+        if (p.val != q.val) return false;
+
+        return sameTree(p.left, q.left) &&
+               sameTree(p.right, q.right);
+    }
 }
