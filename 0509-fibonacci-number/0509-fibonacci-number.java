@@ -6,18 +6,9 @@ class Solution {
         Arrays.fill(arr,-1);
         arr[0]=0;
         arr[1]=1;
-        return find(n,arr);
-
-
-
-    }
-    int find(int n,int[] arr){
-        if(arr[n]!=-1){
-            return arr[n];
+        for(int i=2;i<n+1;i++){
+            arr[i]=arr[i-1]+arr[i-2];
         }
-
-        arr[n]=find(n-1,arr)+find(n-2,arr);
         return arr[n];
-
     }
 }
