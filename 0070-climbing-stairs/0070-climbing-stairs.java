@@ -2,16 +2,19 @@ class Solution {
     public int climbStairs(int n) {
         int[] dp=new int[n+1];
         Arrays.fill(dp,-1);
-        dp[0]=1;
-        dp[1]=1;
-        return find(n,dp);
+        return find(0,n,dp);
 
     }
-    int find(int n,int[] dp){
-        if(dp[n]!=-1){
-            return dp[n];
+    int find(int x,int n,int[] dp){
+        if(x==n){
+            return 1;
         }
-        dp[n]=find(n-1,dp)+find(n-2,dp);
-        return dp[n];
+        if(x>n) return 0;
+
+        if(dp[x]!=-1){
+            return dp[x];
+        }
+        dp[x]=find(x+1,n,dp)+find(x+2,n,dp);
+        return dp[x];
     }
 }
