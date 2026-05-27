@@ -1,8 +1,13 @@
 class Solution {
     public int climbStairs(int n) {
         int[] dp=new int[n+2];
-        Arrays.fill(dp,-1);
-        return find(0,n,dp);
+        dp[n]=1;
+        dp[n+1]=0;
+
+        for(int i=n-1;i>=0;i--){
+            dp[i]=dp[i+1]+dp[i+2];
+        }
+        return dp[0];
 
     }
     int find(int x,int n,int[] dp){
