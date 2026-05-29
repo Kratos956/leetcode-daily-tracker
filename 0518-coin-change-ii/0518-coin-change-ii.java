@@ -1,11 +1,13 @@
 class Solution {
     public int change(int amount, int[] coins) {
-        int[][] dp = new int[coins.length][amount];
+        int[][] dp = new int[coins.length+1][amount+1];
 
         for(int i=0;i<coins.length;i++){
             Arrays.fill(dp[i], -1);
         }
-        return generate(0,0,amount,coins,dp);
+        generate(0,0,amount,coins,dp);
+        if(dp[0][0]==-1) return 1;
+        return dp[0][0];
     }
     int generate(int index,int sum,int amount,int[] coins,int[][] dp){
 
