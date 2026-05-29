@@ -1,12 +1,28 @@
 class Solution {
     public int change(int amount, int[] coins) {
         int[][] dp = new int[coins.length+1][amount+1];
-
-        for(int i=0;i<coins.length;i++){
-            Arrays.fill(dp[i], -1);
+        
+        for(int i=0;i<dp.length;i++){
+            dp[i][amount]=1;
         }
-        generate(0,0,amount,coins,dp);
-        if(dp[0][0]==-1) return 1;
+
+        for(int index=coins.length-1;index>=0;index--){
+            for(int sum=amount-1;sum>=0;sum--){
+                int take = 0;
+
+                if(sum + coins[index] <= amount) {
+                    take = dp[index][sum + coins[index]];
+                }
+
+                int skip = dp[index + 1][sum];
+
+                dp[index][sum] = take + skip;
+            }
+        }
+
+        
+
+        
         return dp[0][0];
     }
     int generate(int index,int sum,int amount,int[] coins,int[][] dp){
