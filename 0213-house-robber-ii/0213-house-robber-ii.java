@@ -2,29 +2,21 @@ class Solution {
     public int rob(int[] nums) {
         if(nums.length==1) return nums[0];
         int n=nums.length;
-        int[] dp1=new int[nums.length+1];
-        dp1[n-1]=0;
-        dp1[n]=0;
+        int first=0;
+        int second=0;
         for(int i=n-2;i>=0;i--){
-            dp1[i]=Math.max(nums[i]+dp1[i+2],dp1[i+1]);
+            int result=Math.max(nums[i]+second,first);
+            second=first;
+            first=result;
         }
 
-        int[] dp2=new int[nums.length+2];
-        dp2[n]=0;
-        dp2[n+1]=0;
+        int third=0;
+        int fourth=0;
         for(int i=n-1;i>=1;i--){
-            dp2[i]=Math.max(nums[i]+dp2[i+2],dp2[i+1]);
+            int result=Math.max(nums[i]+fourth,third);
+            fourth=third;
+            third=result;
         }
-        return Math.max(dp1[0],dp2[1]);
-
-    }
-    int generate(int i,int[] nums,int sum,int n,int[] dp){
-        if(i>=n+1) return 0;
-
-        if(dp[i]!=-1) return dp[i];
-
-        dp[i]=Math.max((nums[i]+generate(i+2,nums,sum+nums[i],n,dp)),generate(i+1,nums,sum,n,dp));
-
-        return dp[i];
+        return Math.max(first,third);
     }
 }
