@@ -1,12 +1,20 @@
 class Solution {
     public int rob(int[] nums) {
         if(nums.length==1) return nums[0];
+        int n=nums.length;
         int[] dp1=new int[nums.length+1];
-        Arrays.fill(dp1,-1);
+        dp1[n-1]=0;
+        dp1[n]=0;
+        for(int i=n-2;i>=0;i--){
+            dp1[i]=Math.max(nums[i]+dp1[i+2],dp1[i+1]);
+        }
+
         int[] dp2=new int[nums.length+2];
-        Arrays.fill(dp2,-1);
-        generate(0,nums,0,nums.length-2,dp1);
-        generate(1,nums,0,nums.length-1,dp2);
+        dp2[n]=0;
+        dp2[n+1]=0;
+        for(int i=n-1;i>=1;i--){
+            dp2[i]=Math.max(nums[i]+dp2[i+2],dp2[i+1]);
+        }
         return Math.max(dp1[0],dp2[1]);
 
     }
