@@ -14,17 +14,19 @@
  * }
  */
 class Solution {
-    public boolean flipEquiv(TreeNode p, TreeNode q) {
-        if(p==null && q==null) return true;
-        if(p==null || q==null) return false;
-        if(p.val!=q.val) return false;
+    public boolean flipEquiv(TreeNode root1, TreeNode root2) {
+        if(root1==null && root2==null) return true;
+        if(root1==null || root2==null) return false;
+        if(root1.val!=root2.val) return false;
+        
+        boolean ll=flipEquiv(root1.left,root2.left);
+        boolean rr=flipEquiv(root1.right,root2.right);       //Not Flip
 
-        boolean left=flipEquiv(p.left,q.left);
-        boolean right=flipEquiv(p.right,q.right);
 
-        boolean flipLeft=flipEquiv(p.left,q.right);
-        boolean flipRight=flipEquiv(p.right,q.left);
+        boolean lr=flipEquiv(root1.left,root2.right);
+        boolean rl=flipEquiv(root1.right,root2.left);       //Flip
+        
+        return (lr && rl) || (ll && rr);
 
-        return (left && right) || (flipLeft && flipRight);
     }
 }
