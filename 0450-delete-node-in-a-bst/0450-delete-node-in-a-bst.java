@@ -1,57 +1,40 @@
 class Solution {
-
     public TreeNode deleteNode(TreeNode root, int key) {
+        if (root == null)
+            return root;
 
-        if(root == null){
-            return null;
-        }
-
-        if(key < root.val){
+        if (root.val > key) {
             root.left = deleteNode(root.left, key);
-        }
-        else if(key > root.val){
+        } else if (root.val < key) {
             root.right = deleteNode(root.right, key);
+        } else {
+            root = delete(root);
         }
-        else{
-            return delete(root);
-        }
-
         return root;
     }
 
-    TreeNode delete(TreeNode node){
+    TreeNode delete(TreeNode node) {
+        if (node.left == null && node.right == null)
+            return null; // 0 CHILD
 
-        // 0 child
-        if(node.left == null && node.right == null){
-            return null;
-        }
-
-        // 1 child
-        if(node.left == null){
-            return node.right;
-        }
-
-        // 1 child
-        if(node.right == null){
+        if (node.left == null)
+            return node.right; // 1 CHILD
+        if (node.right == null)
             return node.left;
-        }
 
-        // 2 children
-        TreeNode inorderSuccessor = find(node.right);
-
-        node.val = inorderSuccessor.val;
-
-        node.right = deleteNode(node.right, inorderSuccessor.val);
+        TreeNode InorderSuccessor = find(node.right); // 2 CHILD
+        node.val = InorderSuccessor.val;
+        node.right = deleteNode(node.right, InorderSuccessor.val); // Now we have to delete the inOrderSuccessor node so we call deletNode function for this also.
 
         return node;
+
     }
 
-    TreeNode find(TreeNode node){
-
-        if(node.left == null){
+    TreeNode find(TreeNode node) {
+        if (node.left == null) {
             return node;
         }
-
         return find(node.left);
+
     }
 }
