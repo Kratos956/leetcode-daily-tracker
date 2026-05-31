@@ -1,22 +1,17 @@
 class Solution {
-    TreeNode ans=null;
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if(p.val>q.val) generate(root,q,p);
-        generate(root,p,q);
-        return ans;
+        if(p.val>q.val) return generate(root,q,p);
+        return generate(root,p,q);
     }
-    void generate(TreeNode root, TreeNode p, TreeNode q){
-        if(root==null) return;
+    TreeNode generate(TreeNode root, TreeNode p, TreeNode q){
+        if(root==null) return null;
 
         if(p.val<=root.val && q.val>=root.val){
-            ans=root;
-            return;
+            return root;
         }
-        if(p.val<root.val && q.val<root.val){
-            generate(root.left,p,q);
+        else if(p.val<root.val && q.val<root.val){
+            return generate(root.left,p,q);
         }
-        if(p.val>root.val && q.val>root.val){
-            generate(root.right,p,q);
-        }
+        return generate(root.right,p,q);
     }
 }
