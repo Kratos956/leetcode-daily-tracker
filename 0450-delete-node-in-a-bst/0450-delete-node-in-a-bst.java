@@ -1,30 +1,57 @@
 class Solution {
-    TreeNode inScr(TreeNode curr){
-        curr = curr.right;
-        while (curr != null && curr.left != null) {
-            curr = curr.left;
-        }
-        return curr;
-
-    }
 
     public TreeNode deleteNode(TreeNode root, int key) {
-        if(root==null) return null;
-        if(root.val>key){
-            root.left=deleteNode(root.left,key);
+
+        if(root == null){
+            return null;
         }
-        else if(root.val<key){
-            root.right=deleteNode(root.right,key);
+
+        if(key < root.val){
+            root.left = deleteNode(root.left, key);
+        }
+        else if(key > root.val){
+            root.right = deleteNode(root.right, key);
         }
         else{
-            if (root.left == null) return root.right;
-            if (root.right == null) return root.left;
-
-            TreeNode successor=inScr(root);
-            root.val=successor.val;
-            root.right=deleteNode(root.right,successor.val);
+            return delete(root);
         }
+
         return root;
     }
 
+    TreeNode delete(TreeNode node){
+
+        // 0 child
+        if(node.left == null && node.right == null){
+            return null;
+        }
+
+        // 1 child
+        if(node.left == null){
+            return node.right;
+        }
+
+        // 1 child
+        if(node.right == null){
+            return node.left;
+        }
+
+        // 2 children
+        TreeNode inorderSuccessor = find(node.right);
+
+        node.val = inorderSuccessor.val;
+
+        node.right = deleteNode(node.right, inorderSuccessor.val);
+
+        return node;
+    }
+
+    TreeNode find(TreeNode node){
+
+        if(node.left == null){
+            return node;
+        }
+
+        return find(node.left);
+    }
 }
