@@ -14,24 +14,23 @@
  * }
  */
 class Solution {
-     static {
-        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            try (java.io.FileWriter fw = new java.io.FileWriter("display_runtime.txt")) {
-                fw.write("0");
-            } catch (Exception e) {
-            }
-        }));
-    }
     public int minDepth(TreeNode root) {
         if(root==null) return 0;
-        int left=minDepth(root.left);
-        int right=minDepth(root.right);
-        if(left==0){
-            return 1+right;
+        int depth=1;
+        Queue<TreeNode> q=new LinkedList<>();
+        q.add(root);
+        while(!q.isEmpty()){
+            int size=q.size();
+            for(int i=0;i<size;i++){
+                TreeNode u=q.poll();
+                if(u.left==null && u.right==null){
+                    return depth;
+                }
+                if(u.left!=null) q.offer(u.left);
+                if(u.right!=null) q.offer(u.right);
+            }
+            depth++;
         }
-        else if(right==0){
-            return 1+left;
-        }
-        return 1+Math.min(left,right);
+        return depth;
     }
 }
