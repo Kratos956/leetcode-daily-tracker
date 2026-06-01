@@ -1,8 +1,8 @@
 class Solution {
     TreeNode prev=null;
-    List<TreeNode> list=new ArrayList<>();
     public void recoverTree(TreeNode root) {
-        Inorder(root);
+        List<TreeNode> list=new ArrayList<>();
+        Inorder(root,list);
         TreeNode first=list.get(0);
         TreeNode second=list.get(list.size()-1);
 
@@ -12,10 +12,10 @@ class Solution {
 
 
     }
-    void Inorder(TreeNode node){
+    void Inorder(TreeNode node,List<TreeNode> list){
         if(node==null) return;
 
-        Inorder(node.left);
+        Inorder(node.left,list);
         if(prev==null){
             prev=node;
         }
@@ -27,7 +27,7 @@ class Solution {
             }
             prev=node;
         }
-        Inorder(node.right);
+        Inorder(node.right,list);
 
     }
 }
