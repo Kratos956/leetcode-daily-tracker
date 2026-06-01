@@ -1,20 +1,25 @@
 class Solution {
+    TreeNode prev=null;
+    boolean ans=true;
     public boolean isValidBST(TreeNode root) {
-        List<Integer> temp=new ArrayList<>();
-
-        Inorder(root,temp);
-        for(int i=1;i<temp.size();i++){
-            if(temp.get(i-1)>=temp.get(i)) return false;
-        }
-        return true;
-
+        Inorder(root);
+        return ans;
     }
-    void Inorder(TreeNode node,List<Integer> temp){
+    void Inorder(TreeNode node){
         if(node==null) return;
 
-        Inorder(node.left,temp);
-        temp.add(node.val);
-        Inorder(node.right,temp);
+        Inorder(node.left);
+        if(prev==null){
+            prev=new TreeNode(node.val);
+        }
+        else{
+            if(node.val<=prev.val){
+                ans=false;
+                return;
+            }
+            prev=new TreeNode(node.val);
+        }
+        Inorder(node.right);
 
     }
 }
