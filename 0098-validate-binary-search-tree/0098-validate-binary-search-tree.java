@@ -10,14 +10,14 @@ class Solution {
 
         Inorder(node.left);
         if(prev==null){
-            prev=new TreeNode(node.val);
+            prev=node;
         }
         else{
             if(node.val<=prev.val){
                 ans=false;
                 return;
             }
-            prev=new TreeNode(node.val);
+            prev=node;
         }
         Inorder(node.right);
 
