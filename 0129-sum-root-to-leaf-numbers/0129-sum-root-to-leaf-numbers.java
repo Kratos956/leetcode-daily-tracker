@@ -1,25 +1,15 @@
 class Solution {
     public int sumNumbers(TreeNode root) {
-        List<String> res = new ArrayList<>();
-
-        generate(root, new StringBuilder(),res);
-        int sum = 0;
-        for(String s: res){
-            sum += Integer.parseInt(s);
-        }
-        return sum;
+        return generate(root,0);
 
     }
-    void generate(TreeNode root,StringBuilder sb,List<String> res){
-        if(root==null) return ;
+    int generate(TreeNode root,int sum){
+        if(root==null) return 0;
 
-        sb.append(root.val);
+        sum=sum*10+root.val;
         if(root.left==null && root.right==null){
-            res.add(sb.toString());
+            return sum;
         }
-        generate(root.left,sb,res);
-        generate(root.right,sb,res);
-        sb.deleteCharAt(sb.length()-1);
-
+        return generate(root.left,sum)+generate(root.right,sum);
     }
 }
