@@ -1,30 +1,34 @@
 class Pair{
-    TreeNode node;
-    int depth;
-    Pair(TreeNode node,int depth){
-        this.node=node;
-        this.depth=depth;
+    int height;
+    TreeNode LCA;
+    Pair(int height, TreeNode LCA) {
+        this.height = height;
+        this.LCA = LCA;
     }
 }
 class Solution {
     public TreeNode lcaDeepestLeaves(TreeNode root) {
-        return dfs(root).node;
+        Pair pair = generate(root);
+        return pair.LCA;
     }
-    Pair dfs(TreeNode root){
-        if(root==null){
-            return new Pair(null,0);
-        }
-        Pair left=dfs(root.left);
-        Pair right=dfs(root.right);
-        
-        if(left.depth<right.depth){
-            return new Pair(right.node,right.depth+1);
-        }
-        if(left.depth>right.depth){
-            return new Pair(left.node,left.depth+1);
-            
-        }
-        return new Pair(root,left.depth+1);
-    }
+    Pair generate(TreeNode root) {
 
+        if(root == null) return new Pair(0,null);
+
+
+        Pair left=generate(root.left);
+        Pair right=generate(root.right);
+
+        if(left.height==right.height){
+            return new Pair(left.height+1,root);
+        }
+        if(left.height<right.height){
+            return new Pair(right.height+1,right.LCA);
+        }
+        else {
+            return new Pair(left.height+1,left.LCA);
+        }
+        
+
+    }
 }
