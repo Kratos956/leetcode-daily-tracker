@@ -214,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0767-reorganize-string) |
 | [0844-backspace-string-compare](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1143-longest-common-subsequence](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1143-longest-common-subsequence) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Matrix
@@ -357,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0213-house-robber-ii) |
 | [0509-fibonacci-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0509-fibonacci-number) |
 | [0518-coin-change-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0518-coin-change-ii) |
+| [1143-longest-common-subsequence](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1143-longest-common-subsequence) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [2050-parallel-courses-iii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2050-parallel-courses-iii) |
