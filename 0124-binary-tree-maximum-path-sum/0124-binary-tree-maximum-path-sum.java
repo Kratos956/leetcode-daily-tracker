@@ -24,6 +24,12 @@ class Solution {
 
         int left=gen(root.left);
         int right=gen(root.right);
+        if(left<0){
+            left=0;
+        }
+        if(right<0){
+            right=0;
+        }
         res=Math.max(res,Math.max(root.val,Math.max(left+right+root.val,Math.max(left+root.val,right+root.val))));
 
         return Math.max(root.val,Math.max(left+root.val,right+root.val));
