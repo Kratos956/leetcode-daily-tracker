@@ -1,40 +1,47 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
+class Pair{
+    TreeNode node;
+    TreeNode tail;
+    Pair(TreeNode node, TreeNode tail) {
+        this.node = node;
+        this.tail = tail;
+    }
+}
 class Solution {
     public void flatten(TreeNode root) {
-        if(root == null) return;
+        preorder(root);
+    }
+    Pair preorder(TreeNode root){
+        if(root==null){
+            return new Pair(null,null);
+        }
+        
 
-        List<Integer> temp = new ArrayList<>();
-        preorder(root, temp);
+        Pair left=preorder(root.left);
+        Pair right=preorder(root.right);
 
-        TreeNode curr = root;
-
-        for(int i = 1; i < temp.size(); i++){
-            curr.left = null;
-            curr.right = new TreeNode(temp.get(i));
-            curr = curr.right;
+        if(left.node==null && right.node==null){
+            root.left=null;
+            return new Pair(root,root);
+        }
+        else if(left.node==null && right.node!=null){
+            root.right=right.node;
+            root.left=null;
+            return new Pair(root,right.tail);
+        }
+        else if(left.node!=null && right.node==null){
+            root.right=left.node;
+            root.left=null;
+            return new Pair(root,left.tail);
+        }
+        
+        else{
+            root.right=left.node;
+            left.tail.right=right.node;
+            root.left=null;
+            return new Pair(root,right.tail);
         }
 
-        curr.left = null;
-    }
-    void preorder(TreeNode root,List<Integer> temp){
-        if(root == null) return ;
-        temp.add(root.val);
-        preorder(root.left,temp);
-        preorder(root.right,temp);
+
 
     }
 }
