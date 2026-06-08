@@ -7,12 +7,14 @@ class Solution {
         for (int[] ints : dp) {
             Arrays.fill(ints, -1);
         }
-        return generate(1,1,m,n,dp);
+
+        generate(1,1,m,n,dp);
+        return dp[1][1];
     }
     int generate(int i,int j,int m,int n,int[][] dp){
         if(!Valid(i,j,m,n)) return 0;
         if(i==m && j==n){
-            return 1;
+            return dp[i][j]=1;
         }
         if(dp[i][j]!=-1){
             return dp[i][j];
