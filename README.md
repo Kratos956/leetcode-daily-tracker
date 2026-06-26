@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0416-partition-equal-subset-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0416-partition-equal-subset-sum) |
 | [0496-next-greater-element-i](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0496-next-greater-element-i) |
 | [0502-ipo](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0502-ipo) |
 | [0518-coin-change-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0518-coin-change-ii) |
@@ -414,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0300-longest-increasing-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0416-partition-equal-subset-sum) |
 | [0509-fibonacci-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0518-coin-change-ii) |
