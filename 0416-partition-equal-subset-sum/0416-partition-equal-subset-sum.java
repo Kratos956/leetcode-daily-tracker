@@ -25,19 +25,4 @@ class Solution {
 
         return dp[0][0];
     }
-    boolean generate(int index,int sum,int total,int[] nums,Boolean[][] dp){
-        if(sum+sum==total) return true;
-        if(index==nums.length) return false;
-
-        if(dp[index][sum]!=null){
-            return dp[index][sum];
-        }
-        if((sum+nums[index])*2>total){
-            return generate(index+1,sum,total,nums,dp);
-        }
-
-        return dp[index][sum]=
-        generate(index+1,sum+nums[index],total,nums,dp) || 
-        generate(index+1,sum,total,nums,dp);
-    }
 }
