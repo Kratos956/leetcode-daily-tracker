@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-last-stone-weight](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1046-last-stone-weight) |
 | [1109-corporate-flight-bookings](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1109-corporate-flight-bookings) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
+| [1254-number-of-closed-islands](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1254-number-of-closed-islands) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1480-running-sum-of-1d-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1480-running-sum-of-1d-array) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [1254-number-of-closed-islands](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1254-number-of-closed-islands) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 ## Stack
 |  |
@@ -337,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1192-critical-connections-in-a-network](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1192-critical-connections-in-a-network) |
+| [1254-number-of-closed-islands](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1254-number-of-closed-islands) |
 ## Binary Tree
 |  |
 | ------- |
@@ -400,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1254-number-of-closed-islands](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1254-number-of-closed-islands) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -611,4 +615,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0886-possible-bipartition](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0886-possible-bipartition) |
+| [1254-number-of-closed-islands](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1254-number-of-closed-islands) |
 <!---LeetCode Topics End-->
