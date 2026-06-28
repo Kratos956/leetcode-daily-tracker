@@ -7,7 +7,7 @@ class Pair{
     }
 }
 class Solution {
-    boolean onboundary=false;
+    boolean onBoundary=false;
     int n;
     int m;
     int[] x_cord={-1,1,0,0};
@@ -26,9 +26,9 @@ class Solution {
                 if(grid[i][j]==0 && !visited[i][j]){
                     count++;
                     BFS(i,j,grid,visited);
-                    if(onboundary){
+                    if(onBoundary){
                         count--;
-                        onboundary=false;
+                        onBoundary=false;
                     }
                 }
             }
@@ -37,7 +37,7 @@ class Solution {
         return count;
     }
     void BFS(int e,int f,int[][] grid,boolean[][] visited){
-        if(e == 0 || e == n - 1 || f == 0 || f == m - 1) onboundary=true;
+        if(e == 0 || e == n - 1 || f == 0 || f == m - 1) onBoundary=true;
         Queue<Pair> q=new LinkedList<>();
         q.add(new Pair(e,f));
         visited[e][f]=true;
@@ -51,7 +51,7 @@ class Solution {
                     if(x + x_cord[i] == 0 ||
                         x + x_cord[i] == n - 1 ||
                         y + y_cord[i] == 0 ||
-                        y + y_cord[i] == m - 1) onboundary=true;
+                        y + y_cord[i] == m - 1) onBoundary=true;
                     visited[x+x_cord[i]][y+y_cord[i]]=true;
                     q.add(new Pair(x+x_cord[i],y+y_cord[i]));
                 }
