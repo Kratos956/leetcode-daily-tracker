@@ -7,6 +7,7 @@ class Pair{
     }
 }
 class Solution {
+    boolean onboundary=false;
     int n;
     int m;
     int[] x_cord={-1,1,0,0};
@@ -24,36 +25,33 @@ class Solution {
             for(int j=0;j<m;j++){
                 if(grid[i][j]==0 && !visited[i][j]){
                     count++;
-                    Queue<Pair> q=new LinkedList<>();
-                    q.add(new Pair(i,j));
-                    visited[i][j]=true;
-                    BFS(q,grid,visited);
+                    BFS(i,j,grid,visited);
+                    if(onboundary){
+                        count--;
+                        onboundary=false;
+                    }
                 }
             }
+            
         }
-        boolean[][] secVisited=new boolean[n][m];
-        int secCount=0;
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(i > 0 && i < n - 1 && j > 0 && j < m - 1) continue;
-                if(grid[i][j]==0 && !secVisited[i][j]){
-                    secCount++;
-                    Queue<Pair> q=new LinkedList<>();
-                    q.add(new Pair(i,j));
-                    secVisited[i][j]=true;
-                    BFS(q,grid,secVisited);
-                }
-            }
-        }
-        return count-secCount;
+        return count;
     }
-    void BFS(Queue<Pair> q,int[][] grid,boolean[][] visited){
+    void BFS(int e,int f,int[][] grid,boolean[][] visited){
+        if(e == 0 || e == n - 1 || f == 0 || f == m - 1) onboundary=true;
+        Queue<Pair> q=new LinkedList<>();
+        q.add(new Pair(e,f));
+        visited[e][f]=true;
         while(!q.isEmpty()){
             Pair u=q.poll();
             int x=u.a;
             int y=u.b;
             for(int i=0;i<4;i++){
+                
                 if(Valid(x+x_cord[i],y+y_cord[i]) && grid[x+x_cord[i]][y+y_cord[i]] ==0 && !visited[x+x_cord[i]][y+y_cord[i]]){
+                    if(x + x_cord[i] == 0 ||
+                        x + x_cord[i] == n - 1 ||
+                        y + y_cord[i] == 0 ||
+                        y + y_cord[i] == m - 1) onboundary=true;
                     visited[x+x_cord[i]][y+y_cord[i]]=true;
                     q.add(new Pair(x+x_cord[i],y+y_cord[i]));
                 }
