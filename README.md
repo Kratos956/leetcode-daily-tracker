@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1480-running-sum-of-1d-array) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2050-parallel-courses-iii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2050-parallel-courses-iii) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2226-maximum-candies-allocated-to-k-children) |
 ## Two Pointers
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1143-longest-common-subsequence) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Matrix
 |  |
 | ------- |
