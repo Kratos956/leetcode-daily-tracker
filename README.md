@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0268-missing-number) |
+| [0486-predict-the-winner](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0509-fibonacci-number) |
 | [0523-continuous-subarray-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0523-continuous-subarray-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0973-k-closest-points-to-origin) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0416-partition-equal-subset-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0416-partition-equal-subset-sum) |
+| [0486-predict-the-winner](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0486-predict-the-winner) |
 | [0496-next-greater-element-i](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0496-next-greater-element-i) |
 | [0502-ipo](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0502-ipo) |
 | [0518-coin-change-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0518-coin-change-ii) |
@@ -426,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0300-longest-increasing-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0416-partition-equal-subset-sum) |
+| [0486-predict-the-winner](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0518-coin-change-ii) |
@@ -518,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0234-palindrome-linked-list) |
+| [0486-predict-the-winner](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0509-fibonacci-number) |
 | [2487-remove-nodes-from-linked-list](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2487-remove-nodes-from-linked-list) |
 ## Divide and Conquer
@@ -622,4 +626,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0886-possible-bipartition](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0886-possible-bipartition) |
 | [1254-number-of-closed-islands](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1254-number-of-closed-islands) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
