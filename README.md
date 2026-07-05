@@ -346,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1192-critical-connections-in-a-network](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1192-critical-connections-in-a-network) |
 | [1254-number-of-closed-islands](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1254-number-of-closed-islands) |
+| [1462-course-schedule-iv](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1462-course-schedule-iv) |
 ## Binary Tree
 |  |
 | ------- |
@@ -410,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1254-number-of-closed-islands](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1254-number-of-closed-islands) |
+| [1462-course-schedule-iv](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1462-course-schedule-iv) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -608,10 +610,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0886-possible-bipartition](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0886-possible-bipartition) |
 | [1192-critical-connections-in-a-network](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1192-critical-connections-in-a-network) |
+| [1462-course-schedule-iv](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1462-course-schedule-iv) |
 | [2050-parallel-courses-iii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2050-parallel-courses-iii) |
 ## Topological Sort
 |  |
 | ------- |
+| [1462-course-schedule-iv](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1462-course-schedule-iv) |
 | [2050-parallel-courses-iii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2050-parallel-courses-iii) |
 ## Biconnected Component
 |  |
