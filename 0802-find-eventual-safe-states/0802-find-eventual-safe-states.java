@@ -1,30 +1,31 @@
 class Solution {
     public List<Integer> eventualSafeNodes(int[][] graph) {
         int n=graph.length;
-        boolean[] visited=new boolean[n];
-        boolean[] path=new boolean[n];
-        for(int i=0;i<n;i++){
-            if(!visited[i]){
-                dfs(i,graph,visited,path);
+        List<List<Integer>> adj=new ArrayList<>();
+        int[] degree=new int[n];
+        for(int i=0;i<n;i++) adj.add(new ArrayList<>());
+        for(int i=0;i<graph.length;i++){
+            for(int j=0;j<graph[i].length;j++){
+                adj.get(graph[i][j]).add(i);
+                degree[i]++;
             }
         }
-        System.out.println(Arrays.toString(path));
-        List<Integer> res=new ArrayList<>();
+        System.out.println(adj);
+        System.out.println(Arrays.toString(degree));
+        Queue<Integer> q=new LinkedList<>();
         for(int i=0;i<n;i++){
-            if(!path[i]) res.add(i);
+            if(degree[i]==0) q.add(i);
         }
+        List<Integer> res=new ArrayList<>();
+        while(!q.isEmpty()){
+            int u=q.poll();
+            res.add(u);
+            for(int ele:adj.get(u)){
+                degree[ele]--;
+                if(degree[ele]==0) q.add(ele);
+            }
+        }
+        Collections.sort(res);
         return res;
-
-    }
-    boolean dfs(int index,int[][] graph,boolean[] visited,boolean[] path){
-        visited[index]=true;
-        path[index]=true;
-        for(int ele:graph[index]){
-            if(path[ele]) return true;
-            if(visited[ele]) continue;
-            if(dfs(ele,graph,visited,path)) return true;
-        }
-        path[index]=false;
-        return false;
     }
 }
