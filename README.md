@@ -339,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0687-longest-univalue-path](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0687-longest-univalue-path) |
+| [0802-find-eventual-safe-states](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0802-find-eventual-safe-states) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0886-possible-bipartition](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0886-possible-bipartition) |
 | [0951-flip-equivalent-binary-trees](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0951-flip-equivalent-binary-trees) |
@@ -405,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0802-find-eventual-safe-states](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0802-find-eventual-safe-states) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0886-possible-bipartition](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0886-possible-bipartition) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0958-check-completeness-of-a-binary-tree) |
@@ -608,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0802-find-eventual-safe-states](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0802-find-eventual-safe-states) |
 | [0886-possible-bipartition](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0886-possible-bipartition) |
 | [1192-critical-connections-in-a-network](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1192-critical-connections-in-a-network) |
 | [1462-course-schedule-iv](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1462-course-schedule-iv) |
@@ -615,6 +618,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Topological Sort
 |  |
 | ------- |
+| [0802-find-eventual-safe-states](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0802-find-eventual-safe-states) |
 | [1462-course-schedule-iv](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1462-course-schedule-iv) |
 | [2050-parallel-courses-iii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/2050-parallel-courses-iii) |
 ## Biconnected Component
