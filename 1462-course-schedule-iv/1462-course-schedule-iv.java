@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
         int n=numCourses;
@@ -28,16 +30,11 @@ class Solution {
                 if(degree[ele]==0) q.add(ele);
             }
         }
-        System.out.println(list);
         List<Boolean> res=new ArrayList<>();
         for(int[] query:queries){
             int u=query[0];
             int v=query[1];
-            if(list.get(v).contains(u)) res.add(true);
-            else{
-                res.add(false);
-            }
-
+            res.add(list.get(v).contains(u));
         }
         return res;
 
