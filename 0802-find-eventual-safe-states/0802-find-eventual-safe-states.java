@@ -20,8 +20,9 @@ class Solution {
         visited[index]=true;
         path[index]=true;
         for(int ele:graph[index]){
-            if(!visited[ele] && dfs(ele,graph,visited,path)) return true;
-            else if(path[ele]) return true;
+            if(path[ele]) return true;
+            if(visited[ele]) continue;
+            if(dfs(ele,graph,visited,path)) return true;
         }
         path[index]=false;
         return false;
