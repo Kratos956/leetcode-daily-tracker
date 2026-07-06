@@ -1,15 +1,14 @@
 class Solution {
     public int fib(int n) {
         if(n<=1) return n;
-        int a=0;
-        int b=1;
-        int c=1;
+        int first=0;
+        int second=1;
+        int third=1;
         for(int i=2;i<n+1;i++){
-            c=a+b;
-            a=b;
-            b=c;
+            third=first+second;
+            first=second;
+            second=third;
         }
-
-        return b;
+        return third;
     }
 }
