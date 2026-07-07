@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0692-top-k-frequent-words) |
 | [0724-find-pivot-index](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0739-daily-temperatures) |
+| [0746-min-cost-climbing-stairs](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0746-min-cost-climbing-stairs) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0875-koko-eating-bananas](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0875-koko-eating-bananas) |
@@ -436,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0518-coin-change-ii) |
+| [0746-min-cost-climbing-stairs](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/0746-min-cost-climbing-stairs) |
 | [1143-longest-common-subsequence](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1143-longest-common-subsequence) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Kratos956/leetcode-daily-tracker/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
