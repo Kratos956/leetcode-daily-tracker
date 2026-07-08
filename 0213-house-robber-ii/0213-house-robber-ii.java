@@ -1,22 +1,22 @@
 class Solution {
     public int rob(int[] nums) {
-        if(nums.length==1) return nums[0];
         int n=nums.length;
-        int first=0;
-        int second=0;
-        for(int i=n-2;i>=0;i--){
-            int result=Math.max(nums[i]+second,first);
-            second=first;
-            first=result;
-        }
+        if(n==1) return nums[0];
+        if(n==2) return Math.max(nums[0],nums[1]);
+        int[] dp1=new int[n-1];
+        int[] dp2=new int[n];
+        Arrays.fill(dp1,-1);
+        Arrays.fill(dp2,-1);
+        return Math.max(find(0,n-2,nums,dp1),find(1,n-1,nums,dp2));
+    }
+    int find(int index,int n,int[] nums,int[] dp){
+        if(index==n) return nums[n];
+        if(index==n-1) return Math.max(nums[n-1],nums[n]);
 
-        int third=0;
-        int fourth=0;
-        for(int i=n-1;i>=1;i--){
-            int result=Math.max(nums[i]+fourth,third);
-            fourth=third;
-            third=result;
-        }
-        return Math.max(first,third);
+        if(dp[index]!=-1) return dp[index];
+
+
+        return dp[index]=
+        Math.max(nums[index]+find(index+2,n,nums,dp),find(index+1,n,nums,dp));
     }
 }
