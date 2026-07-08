@@ -22,8 +22,6 @@ class Solution {
             dp2[1]=dp2[0];
             dp2[0]=Math.max(nums[j]+dp2[2],dp2[1]);
         }
-        System.out.println(Arrays.toString(dp1));
-        System.out.println(Arrays.toString(dp2));
 
 
         return Math.max(dp1[0],dp2[0]);
