@@ -1,14 +1,17 @@
 class Solution {
     public int rob(int[] nums) {
-        int first = 0;   // dp[i+1]
-        int second = 0;  // dp[i+2]
-
-        for (int i = nums.length - 1; i >= 0; i--) {
-            int current = Math.max(nums[i] + second, first);
-            second = first;
-            first = current;
-        }
-
-        return first;
+        int n=nums.length;
+        int[] dp=new int[n];
+        Arrays.fill(dp,-1);
+        return find(n-1,nums,dp);
     }
+    int find(int n,int[] nums,int[] dp){
+        if(n==0) return nums[0];
+        if(n==1) return Math.max(nums[0],nums[1]);
+
+        if(dp[n]!=-1) return dp[n];
+
+        return dp[n] = Math.max(nums[n]+find(n-2,nums,dp),find(n-1,nums,dp));
+    }
+
 }
