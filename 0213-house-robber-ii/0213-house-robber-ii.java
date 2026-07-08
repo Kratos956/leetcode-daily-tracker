@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 class Solution {
     public int rob(int[] nums) {
         int n=nums.length;
@@ -29,12 +27,5 @@ class Solution {
 
 
         return Math.max(dp1[0],dp2[0]);
-    }
-}
-class main {
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-        int[] nums = {7,4,8,9,1,2};
-        System.out.println(sol.rob(nums));
     }
 }
