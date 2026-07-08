@@ -1,22 +1,40 @@
+import java.util.Arrays;
+
 class Solution {
     public int rob(int[] nums) {
         int n=nums.length;
         if(n==1) return nums[0];
         if(n==2) return Math.max(nums[0],nums[1]);
-        int[] dp1=new int[n-1];
-        int[] dp2=new int[n];
-        Arrays.fill(dp1,-1);
-        Arrays.fill(dp2,-1);
-        return Math.max(find(0,n-2,nums,dp1),find(1,n-1,nums,dp2));
+        int[] dp1=new int[3];
+        int[] dp2=new int[3];
+        dp1[1]=nums[n-2];
+        dp1[0]=Math.max(nums[n-3],nums[n-2]);
+        for(int i=n-4;i>=0;i--){
+
+            dp1[2]=dp1[1];
+            dp1[1]=dp1[0];
+
+            dp1[0]=Math.max(nums[i]+dp1[2],dp1[1]);
+        }
+
+        dp2[1]=nums[n-1];
+        dp2[0]=Math.max(nums[n-1],nums[n-2]);
+        for(int j=n-3;j>0;j--){
+            dp2[2]=dp2[1];
+            dp2[1]=dp2[0];
+            dp2[0]=Math.max(nums[j]+dp2[2],dp2[1]);
+        }
+        System.out.println(Arrays.toString(dp1));
+        System.out.println(Arrays.toString(dp2));
+
+
+        return Math.max(dp1[0],dp2[0]);
     }
-    int find(int index,int n,int[] nums,int[] dp){
-        if(index==n) return nums[n];
-        if(index==n-1) return Math.max(nums[n-1],nums[n]);
-
-        if(dp[index]!=-1) return dp[index];
-
-
-        return dp[index]=
-        Math.max(nums[index]+find(index+2,n,nums,dp),find(index+1,n,nums,dp));
+}
+class main {
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+        int[] nums = {7,4,8,9,1,2};
+        System.out.println(sol.rob(nums));
     }
 }
