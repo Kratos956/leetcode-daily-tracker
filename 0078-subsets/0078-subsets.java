@@ -1,18 +1,19 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> res = new ArrayList<>();
-        List<Integer> list = new ArrayList<>();
-        possible(nums, 0, list, res);
+        List<Integer> temp=new ArrayList<>();
+        List<List<Integer>> res=new ArrayList<>();
+        generate(0,temp,res,nums);
         return res;
     }
-    void possible(int[] nums,int i,List<Integer> temp,List<List<Integer>> list){
-        if(i==nums.length){
-            list.add(new ArrayList<>(temp));
+    void generate(int index,List<Integer> temp,List<List<Integer>> res,int[] nums){
+        if(index==nums.length){
+            res.add(new ArrayList<>(temp));
             return;
         }
-        temp.add(nums[i]);
-        possible(nums,i+1,temp,list);
-        temp.removeLast();
-        possible(nums,i+1,temp,list);
+        temp.add(nums[index]);
+        generate(index+1,temp,res,nums);
+        temp.remove(temp.size()-1);
+        generate(index+1,temp,res,nums);
+        
     }
 }
