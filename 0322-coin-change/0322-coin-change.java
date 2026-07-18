@@ -3,29 +3,17 @@ class Solution {
 
         int n = coins.length;
 
-        int[] prev = new int[amount + 1];
         int[] curr = new int[amount + 1];
-        Arrays.fill(prev, 10001);
-        prev[0] = 0;
+        Arrays.fill(curr, 10001);
         curr[0] = 0;
 
         for (int i = 1; i <= n; i++) {
-
-            
-            
-
-            for (int j = 1; j <= amount; j++) {
-
-                if (j < coins[i - 1]) {
-                    curr[j] = prev[j];
-                } else {
-                    curr[j] = Math.min(1 + curr[j - coins[i - 1]], prev[j]);
-                }
+            for (int j = coins[i - 1]; j <= amount; j++) {
+                curr[j] = Math.min(1 + curr[j - coins[i - 1]], curr[j]);
             }
 
-            prev = curr;
         }
 
-        return prev[amount] >= 10001 ? -1 : prev[amount];
+        return curr[amount] >= 10001 ? -1 : curr[amount];
     }
 }
