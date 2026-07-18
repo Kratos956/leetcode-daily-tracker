@@ -1,15 +1,27 @@
 class Solution {
     public int change(int amount, int[] coins) {
         int n=coins.length;
-        int[] dp=new int[amount+1];
-        dp[0]=1;
-
-        for(int i=1;i<=n;i++){
-            for(int j=coins[i-1];j<=amount;j++){
-                dp[j]=dp[j-coins[i-1]]+dp[j];
-                
+        int[][] dp=new int[n+1][amount+1];
+        Arrays.fill(dp[0],0);
+        for(int i=0;i<dp.length;i++){
+            dp[i][0]=1;
+        }
+        for(int i=1;i<dp.length;i++){
+            for(int j=1;j<dp[0].length;j++){
+                if(j<coins[i-1]) dp[i][j]=dp[i-1][j];
+                else{
+                    dp[i][j]=dp[i][j-coins[i-1]]+dp[i-1][j];
+                }
             }
         }
-        return dp[amount];
+        return dp[n][amount];
+    }
+    int generate(int n,int amount,int[] coins){
+        if(amount==0) return 1;
+        if(n==0) return 0;
+
+        if(amount<coins[n-1]) return generate(n-1,amount,coins);
+
+        return generate(n,amount-coins[n-1],coins)+generate(n-1,amount,coins);
     }
 }
