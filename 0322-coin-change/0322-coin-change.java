@@ -2,12 +2,22 @@ class Solution {
     public int coinChange(int[] coins, int amount) {
         int n=coins.length;
         int[][] dp=new int[n+1][amount+1];
+
+        Arrays.fill(dp[0],10001);
         for(int i=0;i<dp.length;i++){
-            Arrays.fill(dp[i],-1);
+            dp[i][0]=0;
         }
-        int x=generate(n,amount,coins,dp);
-        if(x>=10001) return -1;
-        return x;
+        for(int i=1;i<dp.length;i++){
+            for(int j=1;j<dp[i].length;j++){
+                if(j<coins[i-1]) dp[i][j]=dp[i-1][j];
+                else{
+                    dp[i][j]=Math.min(1+dp[i][j-coins[i-1]],dp[i-1][j]);
+                }
+            }
+        }
+        if(dp[n][amount]>=10001) return -1;
+        return dp[n][amount];
+
     }
     int generate(int n,int amount,int[] coins,int[][] dp){
         if(amount==0) return 0;
